@@ -21,12 +21,12 @@ public class SoalTest {
     
     @Test
     public void testPangkat1(){
-       assertTrue("Nilai true", s.pangkat(3, 2));
+       assertTrue("Nilai true", s.pangkat(5, 2));
     }
     
     @Test
     public void testPangkat2() {
-        assertFalse("Nilai false", s.pangkat(10, 3));
+        assertFalse("Nilai false", s.pangkat(4, 10));
     }
     
     @Test
